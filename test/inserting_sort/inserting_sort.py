@@ -18,4 +18,3 @@ if __name__ == '__main__':
     array = [2, 6, 85, 45, 12, 3]
     inserting_sort(array)
     print(array)
-

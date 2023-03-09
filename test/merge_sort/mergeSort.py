@@ -45,18 +45,11 @@ def merg_sort(unsorted_Array):
             k += 1
 
 
-# print the array
-def print_array(array):
-    for i in range(len(array)):
-        print(array[i], end=' ')
-    print()
-
-
 # test above code
 if __name__ == "__main__":
     array = [64, 32, 85, 2, 5, 14]
     print('given array is ', end='\n')
-    print_array(array)
+    print(array)
     merg_sort(array)
     print('sorted array is ', end='\n')
-    print_array(array)
+    print(array)
